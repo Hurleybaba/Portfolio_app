@@ -34,6 +34,11 @@ export const routes: Routes = [
     component: NewsComponent,
   },
   {
+    path: 'news/:id',
+    title: 'News',
+    component: PageComponent,
+  },
+  {
     path: '',
     redirectTo: '/home',
     pathMatch: 'full',

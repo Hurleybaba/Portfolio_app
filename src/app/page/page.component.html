@@ -1,36 +1,15 @@
 <div id="container" class="bg-my-black">
   <!-- <div class="mt-16">Hello</div> -->
   <div class="left">
-    <div class="img"></div>
+    <div class="img"><img [src]="news.img" alt="" /></div>
     <p class="title">
-      UNIOSUN Felicitates Prof. Olukoya Ogen on His Induction as Fellow of the
-      Nigerian Academy of Letters
+      {{ news.title }}
     </p>
     <p class="date">16 August 2024</p>
     <div class="details"></div>
-    <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore, earum
-      provident cum, asperiores blanditiis neque eius ea pariatur minus vel quam
-      cupiditate, quasi labore! Voluptate sed in quos id eum! Voluptas soluta
-    </p>
-    <p>
-      maiores molestias animi labore perspiciatis adipisci minima ab a in hic
-      ipsam aspernatur, odit illum accusantium voluptates eaque reiciendis
-      eveniet pariatur cupiditate doloribus. Molestiae eveniet itaque repellat
-    </p>
-    <p>
-      suscipit? Dolorum maxime, culpa numquam tempora id laborum voluptates
-      quasi sint modi est. Debitis ipsa, accusamus perferendis optio eum minus.
-      Esse excepturi natus hic quod sapiente obcaecati corrupti saepe architecto
-    </p>
-    <p>
-      praesentium! Sequi id ab delectus, maxime deserunt eum veritatis eligendi,
-      voluptatem perferendis quis fuga minima quisquam quas quia veniam
-      aspernatur. Sint voluptatum quae assumenda, veniam ratione quam dolorum
-      nesciunt. Nulla, molestias. Magnam soluta magni, repellendus ad
-      consectetur doloremque libero rem alias obcaecati. Ratione quibusdam
-      itaque iusto quia reprehenderit, fugiat voluptate, quis eos consequatur
-    </p>
+    @for (i of news.details; track $index) {
+    <p>{{ i }}</p>
+    }
   </div>
   <div class="right">
     <app-aside></app-aside>

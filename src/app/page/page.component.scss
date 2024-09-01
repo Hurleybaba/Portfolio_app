@@ -12,12 +12,20 @@
     margin-top: 30px;
     width: 100%;
     height: 450px;
+    overflow: hidden;
     background-color: pink;
+    border-radius: 5px;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+      height: 100%;
+    }
   }
 
   p {
     color: #ffffff;
-    margin: 5px 0;
+    margin: 12px 0;
   }
   .title {
     font-size: 32px;

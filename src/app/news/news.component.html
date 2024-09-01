@@ -5,7 +5,7 @@
       <img [src]="item.img" />
       <p class="title">{{ item.title }}</p>
       <p class="brief">{{ item.content }}</p>
-      <button>Read More</button>
+      <button routerLink="/news/{{ item.id }}">Read More</button>
     </div>
     }
   </section>
