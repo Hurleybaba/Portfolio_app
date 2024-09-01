@@ -4,6 +4,8 @@ import { AchievementComponent } from './achievement/achievement.component';
 import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ContactComponent } from './contact/contact.component';
+import { PageComponent } from './page/page.component';
+import { NewsComponent } from './news/news.component';
 
 export const routes: Routes = [
   {
@@ -25,6 +27,11 @@ export const routes: Routes = [
     path: 'contact',
     title: 'Contact',
     component: ContactComponent,
+  },
+  {
+    path: 'news',
+    title: 'News',
+    component: NewsComponent,
   },
   {
     path: '',

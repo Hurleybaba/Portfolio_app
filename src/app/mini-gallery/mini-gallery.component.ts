@@ -16,7 +16,7 @@ import {
 export class MiniGalleryComponent {
   notes = [
     {
-      details: 'Details 1',
+      details: 'hHello',
     },
     {
       details: 'Details 2',

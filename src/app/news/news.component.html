@@ -1,0 +1,15 @@
+<div id="container" class="bg-my-black">
+  <section class="left">
+    @for (item of newsList; track item.id) {
+    <div class="new">
+      <img [src]="item.img" />
+      <p class="title">{{ item.title }}</p>
+      <p class="brief">{{ item.content }}</p>
+      <button>Read More</button>
+    </div>
+    }
+  </section>
+  <div class="right">
+    <app-aside></app-aside>
+  </div>
+</div>

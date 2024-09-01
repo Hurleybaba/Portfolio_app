@@ -1,5 +1,8 @@
 .divvd {
   backdrop-filter: blur(10px);
+  position: fixed;
+  background-color: transparent;
+  top: 0;
 }
 .active {
   border-bottom: 2px solid white;

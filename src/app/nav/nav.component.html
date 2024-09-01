@@ -1,5 +1,5 @@
 <div
-  class="divvd absolute top-0 left-0 flex justify-center items-center px-10 w-full h-16 z-30 pr-16"
+  class="divvd flex justify-center items-center px-10 w-full h-16 z-30 pr-16"
 >
   <nav class="flex items-center gap-12 text-lg text-white">
     <a
@@ -33,6 +33,14 @@
       ariaCurrentWhileActive="page"
       class="cursor-pointer"
       >Contact</a
+    >
+    <a
+      routerLink="/news"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      ariaCurrentWhileActive="page"
+      class="cursor-pointer"
+      >News</a
     >
   </nav>
 </div>
