@@ -1,8 +1,43 @@
 .divvd {
-  backdrop-filter: blur(10px);
+  position: relative;
+  background-color: blueviolet;
+  width: 100%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 10000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 20px;
+  transition: position 0.3s ease, top 0.3s, width 0.1s, padding 0.3s;
+}
+.divvd.fixed {
   position: fixed;
-  background-color: transparent;
-  top: 0;
+  top: 10px;
+  width: 90%;
+  padding: 0 20px;
+}
+.name {
+  color: #ffffff;
+  font-size: 26px;
+  width: 30%;
+  // border: 1px solid red;
+}
+nav {
+  display: flex;
+  margin: auto;
+  // border: 1px solid red;
+  background-color: blueviolet;
+  border-radius: 4px;
+  justify-content: flex-end;
+  align-items: center;
+  width: 70%;
+  padding: 18px 0;
+  gap: 40px;
+}
+nav a {
+  font-size: 18px;
+  color: white;
 }
 .active {
   border-bottom: 2px solid white;

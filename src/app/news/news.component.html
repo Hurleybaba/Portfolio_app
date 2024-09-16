@@ -1,10 +1,10 @@
-<div id="container" class="bg-my-black">
+<div id="container">
   <section class="left">
     @for (item of newsList; track item.id) {
     <div class="new">
       <img [src]="item.img" />
       <p class="title">{{ item.title }}</p>
-      <p class="brief">{{ item.content }}</p>
+      <p class="brief">{{ item.content }}...</p>
       <button routerLink="/news/{{ item.id }}">Read More</button>
     </div>
     }

@@ -5,7 +5,7 @@
     <p class="title">
       {{ news.title }}
     </p>
-    <p class="date">16 August 2024</p>
+    <p class="date">{{ news.date }}</p>
     <div class="details"></div>
     @for (i of news.details; track $index) {
     <p>{{ i }}</p>

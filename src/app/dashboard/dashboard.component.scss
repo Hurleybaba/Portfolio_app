@@ -1,6 +1,9 @@
 #container {
-  height: 70vh;
+  // height: 70vh;
+  padding: 70px 0 40px;
   width: 100%;
+  background-color: #f1faee;
+  // border-bottom: 1px solid rgb(49, 49, 49);
 
   .profile-details {
     width: 90%;
@@ -9,9 +12,14 @@
 }
 .socials {
   div {
-    @apply border-2 px-2 rounded-md cursor-pointer hover:bg-white hover:text-my-black transition-colors duration-300 w-9 flex justify-center items-center;
+    @apply border-2 px-2 rounded-md cursor-pointer border-my-black hover:bg-my-black hover:text-white transition-colors duration-300 w-9 flex justify-center items-center;
   }
 }
-.gradient-border {
-  border-color: #4361ee;
+button {
+  padding: 10px;
+  color: white;
+  font-weight: 600;
+  border-radius: 6px;
+  margin-top: 12px;
+  background-color: #4361ee;
 }

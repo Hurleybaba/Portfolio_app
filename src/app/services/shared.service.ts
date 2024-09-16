@@ -9,11 +9,12 @@ export class SharedService {
   private dataList = [
     {
       id: 100,
+      date: '16 August, 2024',
       img: 'images/IMGS/972343b4952d1d3547391031bb810d9e_XL.jpg',
       title:
         'UNIOSUN Felicitates Prof. Olukoya Ogen on His Induction as Fellow',
       content:
-        'Professor Olukoya Ogen of Osun State University was inducted as a Fellow of the Historical Society of Nigeria (HSN) on October 14, 2021, during the 66th Annual Congress in Enugu. The fellowship is the highest honor from HSN, recognizing significant contributions to historical scholarship and leadership. Other inductees included Brigadier General Shuaibu Ibrahim, Senator Professor Sandy Onor, and Professor Okechukwu Edward Okeke...',
+        'Professor Olukoya Ogen of Osun State University was inducted as a Fellow of the Historical Society of Nigeria (HSN) on October 14, 2021, during the 66th Annual Congress in Enugu. The fellowship is the highest honor from HSN, recognizing significant contributions to historical ',
       details: [
         'The Management of Osun State University, under the leadership of the Vice-Chancellor, Professor Odunayo Clement Adebooye, has heartily felicitated Professor Olukoya Ogen, a foremost historian and highly productive and prolific scholar, on his induction as Fellow of the prestigious Nigerian Academy of Letters (NAL).',
         "In a statement released by the University on Thursday, 15th August, 2024, the institution's Public Relations' Officer, Ademola Adesoji, stated that the investiture was held in Lagos by the Nigerian Academy of Letters, where Professor Ogen, the University's Director of the Office of Research and Innovation Management was conferred with the Fellowship of the Academy for his outstanding contributions to history and humanistic scholarship both nationally and internationally.",
@@ -24,10 +25,10 @@ export class SharedService {
     {
       id: '101',
       img: 'images/IMGS/images.jpeg',
-      date: ' December 1, 2017',
+      date: '1 December, 2017',
       title: 'US Varsity Appoints Ogen, ACE Provost As Research Professor',
       content:
-        'Professor Olukoya Ogen, Provost of Adeyemi College of Education, Ondo, was appointed as a Senior Mentoring Scholar and full Professor of Research at the Southern University, International Center for Information Technology and Development (ICITD) in Baton Rouge, Louisiana. His role involves leading research activities and mentoring Ph.D. students and junior lecturers. ',
+        'Professor Olukoya Ogen, Provost of Adeyemi College of Education, Ondo, was appointed as a Senior Mentoring Scholar and full Professor of Research at the Southern University, International Center for Information Technology and Development (ICITD) in Baton Rouge...',
       details: [
         'The Southern University, International Center For Information Technology and Development (ICITD), Baton Rouge, Louisiana, United States of America has appointed Professor Olukoya Ogen, the Provost, Adeyemi College of Education, Ondo as Senior Mentoring Scholar and full Professor of Research of the institution.',
         'In the letter of appointment dated 24th November, 2017 and signed by Executive Director of International Center for Information and Development, Southern University, Professor Victor Mbarika said Prof. Ogen is expected to take leadership position in research activities at the University and be involved in the mentoring of Ph.D students and junior lecturers.',

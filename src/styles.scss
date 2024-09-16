@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-$primary-color: blue;
 $font: "Poppins", sans-serif;
 
 * {
@@ -10,4 +9,10 @@ $font: "Poppins", sans-serif;
   padding: 0;
   box-sizing: border-box;
   font-family: $font;
+}
+body {
+  background-color: #f1faee;
+}
+#header .title {
+  font-family: "Jacques Francois Shadow", sans-serif;
 }
